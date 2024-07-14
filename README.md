@@ -3,10 +3,12 @@
 
 The Supplementary Material of our paper includes three repositories:
 1. **Problem formalization and simulation (Current Repository)**
-2. Some Microbenchmarks to compare various compaction strategies
-3. Integrate the Leaning and Logical Compaction into the Duckdb, evaluting the End-to-end performance.
+2. [Some Microbenchmarks to compare various compaction strategies](https://github.com/YimingQiao/Chunk-Compaction-in-Vectorized-Execution)
+3. [Integrate the Leaning and Logical Compaction into the Duckdb, evaluting the End-to-end performance](https://github.com/YimingQiao/Chunk-Compaction-in-Duckdb)
 
 ---
+
+
 
 This repository contains the code that we use it to formalize and simulate the compaction problem. 
 
