@@ -1,4 +1,4 @@
-# Data Chunk Compaction in the Vectorized Execution
+# Data Chunk Compaction in Vectorized Execution
 
 
 The Supplementary Material of our paper includes three repositories:
