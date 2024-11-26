@@ -6,6 +6,8 @@ The Supplementary Material of our paper includes three repositories:
 2. [Some Microbenchmarks to compare various compaction strategies](https://github.com/YimingQiao/Chunk-Compaction-in-Vectorized-Execution)
 3. [Integrate the Leaning and Logical Compaction into the Duckdb, evaluting the End-to-end performance](https://github.com/YimingQiao/Chunk-Compaction-in-Duckdb)
 
+**Updates: The implementation of Logical Compaction has been successfully [merged into DuckDB](https://github.com/duckdb/duckdb/pull/14956)!**
+
 ---
 
 
