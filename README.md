@@ -15,6 +15,37 @@ The Supplementary Material of our paper includes three repositories:
 
 This repository contains the code that we use it to formalize and simulate the compaction problem. 
 
+## Environment Setup
+
+We provide two ways to set up the execution environment for the notebook:
+
+### Option 1: Using Conda (Recommended)
+
+Create a conda environment using the provided configuration file:
+
+```bash
+# Create environment from environment.yml
+conda env create -f environment.yml
+
+# Activate the environment
+conda activate chunk-compaction-env
+```
+
+### Option 2: Using pip
+
+Alternatively, you can install the dependencies using pip:
+
+```bash
+# Create a virtual environment (optional but recommended)
+python -m venv chunk-compaction-env
+source chunk-compaction-env/bin/activate  # On Windows: chunk-compaction-env\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+## Repository Contents
+
 It contains 
 - A Jupyter notebook, which is the main part of this repo.
    - [Problem Formalization](cpt_algorithms.ipynb)
@@ -25,6 +56,9 @@ It contains
 - Two result pictures:
    - [Simulation Results A](simulation_analysis_partA.pdf)
    - [Simulation Results B](simulation_analysis_partB.pdf)
+- Environment configuration files:
+   - `environment.yml` - Conda environment configuration
+   - `requirements.txt` - pip requirements file
  
 For details, please refer to that jupyter notebook.
 
